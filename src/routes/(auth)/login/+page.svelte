@@ -112,18 +112,16 @@
 			</Button>
 		</div>
 		<div class="justify-content-center mt-4 flex flex-col gap-3">
-			<h4 class="text-center text-lg font-medium">Demo logins</h4>
+			<h4 class="text-left text-lg font-medium">Demo logins</h4>
 			<div class="flex flex-col gap-2">
 				<div class="flex items-center">
 					<div class="flex-1">
-						<span class="text-xs text-gray-600">Username:</span>
 						<p class="text-sm font-medium">test@example.com</p>
 					</div>
 					<CopyButton data="test@example.com" />
 				</div>
 				<div class="flex items-center">
 					<div class="flex-1">
-						<span class="text-xs text-gray-600">Password:</span>
 						<p class="text-sm font-medium">test123</p>
 					</div>
 					<CopyButton data="test123" />
