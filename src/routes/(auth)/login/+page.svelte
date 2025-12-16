@@ -116,13 +116,13 @@
 			<div class="flex flex-col gap-2">
 				<div class="flex items-center">
 					<div class="flex-1">
-						<p class="text-sm font-medium">test@example.com</p>
+						<p class="text-sm">test@example.com</p>
 					</div>
 					<CopyButton data="test@example.com" />
 				</div>
 				<div class="flex items-center">
 					<div class="flex-1">
-						<p class="text-sm font-medium">test123</p>
+						<p class="text-sm">test123</p>
 					</div>
 					<CopyButton data="test123" />
 				</div>
