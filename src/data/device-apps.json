@@ -19,6 +19,62 @@
 			},
 			{
 				"id": "app-003",
+				"name": "TikTok",
+				"package": "com.zhiliaoapp.musically",
+				"category": "Social Media",
+				"status": "restricted",
+				"icon": "/icons/svg/tiktok.svg"
+			},
+			{
+				"id": "app-004",
+				"name": "Twitter",
+				"package": "com.twitter.android",
+				"category": "Social Media",
+				"status": "allowed",
+				"icon": "/icons/svg/twitter.svg"
+			},
+			{
+				"id": "app-005",
+				"name": "Snapchat",
+				"package": "com.snapchat.android",
+				"category": "Social Media",
+				"status": "restricted",
+				"icon": "/icons/svg/snapchat.svg"
+			},
+			{
+				"id": "app-006",
+				"name": "LinkedIn",
+				"package": "com.linkedin.android",
+				"category": "Social Media",
+				"status": "allowed",
+				"icon": "/icons/svg/linkedin.svg"
+			},
+			{
+				"id": "app-007",
+				"name": "WhatsApp",
+				"package": "com.whatsapp",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/whatsapp.svg"
+			},
+			{
+				"id": "app-008",
+				"name": "Telegram",
+				"package": "org.telegram.messenger",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/telegram.svg"
+			},
+			{
+				"id": "app-009",
+				"name": "Discord",
+				"package": "com.discord",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/discord.svg"
+			},
+			{
+				"id": "app-010",
 				"name": "Netflix",
 				"package": "com.netflix.mediaclient",
 				"category": "Entertainment",
@@ -26,12 +82,100 @@
 				"icon": "/icons/svg/netflix.svg"
 			},
 			{
-				"id": "app-004",
+				"id": "app-011",
+				"name": "YouTube",
+				"package": "com.google.android.youtube",
+				"category": "Entertainment",
+				"status": "allowed",
+				"icon": "/icons/svg/youtube.svg"
+			},
+			{
+				"id": "app-012",
+				"name": "Spotify",
+				"package": "com.spotify.music",
+				"category": "Entertainment",
+				"status": "allowed",
+				"icon": "/icons/svg/spotify.svg"
+			},
+			{
+				"id": "app-013",
+				"name": "Disney+",
+				"package": "com.disney.disneyplus",
+				"category": "Entertainment",
+				"status": "restricted",
+				"icon": "/icons/svg/disney.svg"
+			},
+			{
+				"id": "app-014",
+				"name": "Prime Video",
+				"package": "com.amazon.avod.thirdpartyclient",
+				"category": "Entertainment",
+				"status": "allowed",
+				"icon": "/icons/svg/prime.svg"
+			},
+			{
+				"id": "app-015",
 				"name": "Gmail",
 				"package": "com.google.android.gm",
 				"category": "Productivity",
 				"status": "allowed",
 				"icon": "/icons/svg/gmail.svg"
+			},
+			{
+				"id": "app-016",
+				"name": "Google Drive",
+				"package": "com.google.android.apps.docs",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/drive.svg"
+			},
+			{
+				"id": "app-017",
+				"name": "Microsoft Word",
+				"package": "com.microsoft.office.word",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/word.svg"
+			},
+			{
+				"id": "app-018",
+				"name": "Microsoft Excel",
+				"package": "com.microsoft.office.excel",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/excel.svg"
+			},
+			{
+				"id": "app-019",
+				"name": "Notion",
+				"package": "notion.id",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/notion.svg"
+			},
+			{
+				"id": "app-020",
+				"name": "Zoom",
+				"package": "us.zoom.videomeetings",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/zoom.svg"
+			},
+			{
+				"id": "app-021",
+				"name": "Amazon Shopping",
+				"package": "com.amazon.mShop.android.shopping",
+				"category": "Shopping",
+				"status": "allowed",
+				"icon": "/icons/svg/amazon.svg"
+			},
+			{
+				"id": "app-022",
+				"name": "PayPal",
+				"package": "com.paypal.android.p2pmobile",
+				"category": "Finance",
+				"status": "allowed",
+				"icon": "/icons/svg/paypal.svg"
 			}
 		]
 	},
@@ -46,17 +190,21 @@
 				"icon": "/icons/svg/facebook.svg"
 			},
 			{
-				"id": "app-004",
-				"name": "Gmail",
-				"package": "com.google.android.gm",
-				"category": "Productivity",
-				"status": "allowed",
-				"icon": "/icons/svg/gmail.svg"
-			}
-		]
-	},
-	"device-003": {
-		"apps": [
+				"id": "app-002",
+				"name": "Instagram",
+				"package": "com.instagram.android",
+				"category": "Social Media",
+				"status": "restricted",
+				"icon": "/icons/svg/instagram.svg"
+			},
+			{
+				"id": "app-003",
+				"name": "TikTok",
+				"package": "com.zhiliaoapp.musically",
+				"category": "Social Media",
+				"status": "restricted",
+				"icon": "/icons/svg/tiktok.svg"
+			},
 			{
 				"id": "app-004",
 				"name": "Gmail",
@@ -72,8 +220,243 @@
 				"category": "Productivity",
 				"status": "allowed",
 				"icon": "/icons/svg/slack.svg"
+			},
+			{
+				"id": "app-006",
+				"name": "Microsoft Teams",
+				"package": "com.microsoft.teams",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/teams.svg"
+			},
+			{
+				"id": "app-007",
+				"name": "WhatsApp",
+				"package": "com.whatsapp",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/whatsapp.svg"
+			},
+			{
+				"id": "app-008",
+				"name": "Dropbox",
+				"package": "com.dropbox.android",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/dropbox.svg"
+			},
+			{
+				"id": "app-009",
+				"name": "Trello",
+				"package": "com.trello",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/trello.svg"
+			},
+			{
+				"id": "app-010",
+				"name": "Reddit",
+				"package": "com.reddit.frontpage",
+				"category": "News & Reading",
+				"status": "allowed",
+				"icon": "/icons/svg/reddit.svg"
+			},
+			{
+				"id": "app-011",
+				"name": "Spotify",
+				"package": "com.spotify.music",
+				"category": "Entertainment",
+				"status": "allowed",
+				"icon": "/icons/svg/spotify.svg"
+			},
+			{
+				"id": "app-012",
+				"name": "YouTube",
+				"package": "com.google.android.youtube",
+				"category": "Entertainment",
+				"status": "restricted",
+				"icon": "/icons/svg/youtube.svg"
+			},
+			{
+				"id": "app-013",
+				"name": "Venmo",
+				"package": "com.venmo",
+				"category": "Finance",
+				"status": "allowed",
+				"icon": "/icons/svg/venmo.svg"
+			},
+			{
+				"id": "app-014",
+				"name": "eBay",
+				"package": "com.ebay.mobile",
+				"category": "Shopping",
+				"status": "allowed",
+				"icon": "/icons/svg/ebay.svg"
+			}
+		]
+	},
+	"device-003": {
+		"apps": [
+			{
+				"id": "app-001",
+				"name": "Gmail",
+				"package": "com.google.android.gm",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/gmail.svg"
+			},
+			{
+				"id": "app-002",
+				"name": "Slack",
+				"package": "com.Slack",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/slack.svg"
+			},
+			{
+				"id": "app-003",
+				"name": "Google Drive",
+				"package": "com.google.android.apps.docs",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/drive.svg"
+			},
+			{
+				"id": "app-004",
+				"name": "Microsoft PowerPoint",
+				"package": "com.microsoft.office.powerpoint",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/powerpoint.svg"
+			},
+			{
+				"id": "app-005",
+				"name": "Evernote",
+				"package": "com.evernote",
+				"category": "Productivity",
+				"status": "allowed",
+				"icon": "/icons/svg/evernote.svg"
+			},
+			{
+				"id": "app-006",
+				"name": "Zoom",
+				"package": "us.zoom.videomeetings",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/zoom.svg"
+			},
+			{
+				"id": "app-007",
+				"name": "Google Meet",
+				"package": "com.google.android.apps.meetings",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/meet.svg"
+			},
+			{
+				"id": "app-008",
+				"name": "Skype",
+				"package": "com.skype.raider",
+				"category": "Communication",
+				"status": "allowed",
+				"icon": "/icons/svg/skype.svg"
+			},
+			{
+				"id": "app-009",
+				"name": "Twitch",
+				"package": "tv.twitch.android.app",
+				"category": "Entertainment",
+				"status": "allowed",
+				"icon": "/icons/svg/twitch.svg"
+			},
+			{
+				"id": "app-010",
+				"name": "Hulu",
+				"package": "com.hulu.plus",
+				"category": "Entertainment",
+				"status": "restricted",
+				"icon": "/icons/svg/hulu.svg"
+			},
+			{
+				"id": "app-011",
+				"name": "Cash App",
+				"package": "com.squareup.cash",
+				"category": "Finance",
+				"status": "allowed",
+				"icon": "/icons/svg/cashapp.svg"
+			},
+			{
+				"id": "app-012",
+				"name": "Walmart",
+				"package": "com.walmart.android",
+				"category": "Shopping",
+				"status": "allowed",
+				"icon": "/icons/svg/walmart.svg"
+			},
+			{
+				"id": "app-013",
+				"name": "Target",
+				"package": "com.target.ui",
+				"category": "Shopping",
+				"status": "allowed",
+				"icon": "/icons/svg/target.svg"
+			},
+			{
+				"id": "app-014",
+				"name": "MyFitnessPal",
+				"package": "com.myfitnesspal.android",
+				"category": "Health & Fitness",
+				"status": "allowed",
+				"icon": "/icons/svg/myfitnesspal.svg"
+			},
+			{
+				"id": "app-015",
+				"name": "Strava",
+				"package": "com.strava",
+				"category": "Health & Fitness",
+				"status": "allowed",
+				"icon": "/icons/svg/strava.svg"
+			},
+			{
+				"id": "app-016",
+				"name": "Headspace",
+				"package": "com.getsomeheadspace.android",
+				"category": "Health & Fitness",
+				"status": "allowed",
+				"icon": "/icons/svg/headspace.svg"
+			},
+			{
+				"id": "app-017",
+				"name": "Medium",
+				"package": "com.medium.reader",
+				"category": "News & Reading",
+				"status": "allowed",
+				"icon": "/icons/svg/medium.svg"
+			},
+			{
+				"id": "app-018",
+				"name": "Kindle",
+				"package": "com.amazon.kindle",
+				"category": "News & Reading",
+				"status": "allowed",
+				"icon": "/icons/svg/kindle.svg"
+			},
+			{
+				"id": "app-019",
+				"name": "1Password",
+				"package": "com.agilebits.onepassword",
+				"category": "Utilities",
+				"status": "allowed",
+				"icon": "/icons/svg/1password.svg"
+			},
+			{
+				"id": "app-020",
+				"name": "NordVPN",
+				"package": "com.nordvpn.android",
+				"category": "Utilities",
+				"status": "allowed",
+				"icon": "/icons/svg/nordvpn.svg"
 			}
 		]
 	}
 }
-
