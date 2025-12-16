@@ -94,7 +94,7 @@
 			<div class="forgot_pass-right">
 				<a
 					href="/forgot-password"
-					class="forgot_pass mt-2 flex justify-end text-sm leading-5 font-medium text-neutral-950"
+					class="forgot_pass mt-2 flex justify-end text-sm font-medium leading-5 text-neutral-950"
 				>
 					Forgot password?
 				</a>
@@ -110,6 +110,13 @@
 					{/if}
 				</span>
 			</Button>
+		</div>
+		<div class="justify-content-center flex flex-col">
+			<h4 class="justify-content-center text-lg font-medium">Demo logins</h4>
+			<span class="text-sm font-medium"
+				>Username: "test@example.com",<br />
+				Password: "test123",</span
+			>
 		</div>
 	</form>
 </AuthLayout>
